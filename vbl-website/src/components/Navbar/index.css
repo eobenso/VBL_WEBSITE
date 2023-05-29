@@ -1,0 +1,58 @@
+.Navbar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 150px 10px 150px;
+    background-color: lightgray;
+}
+
+.navbar-first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.follow-icons-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.login-button {
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
+}
+
+.login-button:hover {
+    background-color: darkgrey;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.24);
+  }
+
+
+
+
+
+
