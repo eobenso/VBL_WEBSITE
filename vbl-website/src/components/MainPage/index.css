@@ -11,7 +11,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* padding-bottom: 40px; */
 }
 
 .logo-name {
@@ -45,25 +44,72 @@
     font-size: 18px;
     background-color: lightgray;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
-    cursor: pointer;
 }
 
 .login-button:hover {
     background-color: darkgrey;
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.24);
+  }
+
+  section  {
+    font-family:Helvetica;
+    color:black;
+    position: absolute;
+    bottom:  4em;
+    left: 4em;
+  }
+
+  * {
+    background-color: lightgray;
+    box-sizing: border-box;
+  }
+
+.carousel {
+    background-color: rgb(233, 228, 228);
+    position: static;
+    padding: 4rem;
+    object-position: center bottom;
+    margin-left:70px;
+    margin-right:70px;
+    margin-top: 60px;
+   
+}
+.carousel h2 {
+    position: absolute;
+    background-color: rgb(233, 228, 228);
+    color: black;
+    top: 200px;
+    left: 170px;
 }
 
-.navbar-select-bar {
-    margin: 50px 0px;
-}
-/* .menus {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  .box img {
+    background-color: darkgrey;
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+  }
+
+.slick-slide div {
+    margin: 0 1rem;
+    background-color: rgb(233, 228, 228);
+
 }
 
-.dropdown {
-    display: none;
-} */
+.slick-dots {
+    background-color: rgb(233, 228, 228);
+}
+
+.slick-active {
+    background-color: rgb(233, 228, 228);
+}
+
+
+
+
+
+
+
+
+
 
