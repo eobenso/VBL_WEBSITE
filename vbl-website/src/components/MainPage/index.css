@@ -54,32 +54,29 @@
   section  {
     font-family:Helvetica;
     color:black;
-    position: absolute;
-    bottom:  4em;
-    left: 4em;
-  }
-
-  * {
     background-color: lightgray;
-    box-sizing: border-box;
+    left:50%;
+    margin-left: -48%;
+    position: relative;
+    top: 315px;
+    width: 1200px;
+    word-wrap: break-word;
   }
 
 .carousel {
     background-color: rgb(233, 228, 228);
-    position: static;
+    position:relative;
     padding: 4rem;
-    object-position: center bottom;
-    margin-left:70px;
-    margin-right:70px;
-    margin-top: 60px;
+    margin-top: -50px;
+    margin-left: -10px;
    
 }
 .carousel h2 {
     position: absolute;
     background-color: rgb(233, 228, 228);
     color: black;
-    top: 200px;
-    left: 170px;
+    top: -40px;
+    left: 100px;
 }
 
   .box img {
@@ -103,6 +100,15 @@
 .slick-active {
     background-color: rgb(233, 228, 228);
 }
+
+.slick-slider {
+    height: 10em;
+    position: relative;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+
 
 
 
