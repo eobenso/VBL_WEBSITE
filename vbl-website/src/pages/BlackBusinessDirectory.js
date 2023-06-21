@@ -2,13 +2,13 @@ import React from 'react';
 
 import Navbar from '../components/Navbar';
 
-const CollaborateWithUs = () => {
+const BlackBusinessDirectory = () => {
     return (
         <div>
             <Navbar />
-            <h1>this is the CollaborateWithUs page</h1>
+            <h1>this is the BlackBusinessDirectory page</h1>
         </div>
     );
 }
 
-export default CollaborateWithUs;
+export default BlackBusinessDirectory;
