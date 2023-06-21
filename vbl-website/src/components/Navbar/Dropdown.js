@@ -1,29 +1,16 @@
-import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
-import { MenuItems } from './MenuItems';
+import MenuItem from "./MenuItem";
 
-import './Dropdown.css';
-
-function Dropdown() {
-    const [click, setClick] = useState(false);
-
-    const handleClick = () => setClick(!click);
-
-    return (
-        <>
-            <ul onClick={handleClick} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
-                {MenuItems.map((item, index)=> {
-                    return (
-                        <li key={index}>
-                            <Link className='item.cname' to={item.path} onClick={() => setClick(false)}>
-                                {item.title}
-                            </Link>
-                        </li>
-                    )
-                })}
-            </ul>
-        </>
-    )
-}
+const Dropdown = ({ submenus, dropdown, depthLevel }) => {
+  depthLevel = depthLevel + 1;
+  const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+  return (
+    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+      {" "}
+      {submenus.map((submenu, index) => (
+        <MenuItem items={submenu} key={index} depthLevel={depthLevel} />
+      ))}
+    </ul>
+  );
+};
 
 export default Dropdown;
