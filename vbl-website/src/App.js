@@ -5,7 +5,7 @@ import HoganAlleyResources from './pages/HoganAlleyResources.js'
 import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js'
 import VBLEvents from './pages/VBLEvents.js'
 import LocalEvents from './pages/LocalEvents.js'
-import Merch from './pages/merch.js'
+import Merch from './pages/Merch.js'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
