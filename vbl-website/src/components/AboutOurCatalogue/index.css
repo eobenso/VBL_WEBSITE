@@ -1,0 +1,74 @@
+.using-the-library-section {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 50px 100px;
+    background-color: lightgray;
+}
+
+.sub-section-name {
+    text-decoration: underline;
+}
+
+.about-our-catalogue {
+    margin-top: 50px;
+}
+
+.about-our-catalogue-content {
+    padding: 0px 30px;
+    margin-top: 15px;
+}
+
+.books-more {
+    margin-top: 50px;
+}
+
+.books-more-subtitle {
+    padding: 0px 35px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.books-more-content {
+    padding: 0px 70px;
+    color: black;
+}
+
+.popular-genres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.popular-genres-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.popular-genres-img {
+    width: 100px;
+}
+
+.popular-genres-text {
+    font-size: large;
+    color: black;
+    margin-top: 10px;
+}
+
+.guidelines-for-borrowing-at-vbl {
+    margin-top: 50px;
+
+}
+
+.guidelines-for-borrowing-at-vbl-content {
+    padding: 0px 30px;
+    margin-top: 15px;
+}
+
+@media (max-width: 850px) {
+    .popular-genres {
+        flex-direction: column;
+    }
+}
