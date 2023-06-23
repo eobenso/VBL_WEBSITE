@@ -1,83 +1,38 @@
-/* .Navbar {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px 150px 10px 150px;
-    background-color: lightgray;
-}
-
-.navbar-first-line {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo-name {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.logo {
-    height: 60px;
-    width: 60px;
-    margin-right: 10px;
-}
-
-.follow-icons-login {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.icon {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-}
-
-.login-button {
-    margin-left: 10px;
-    width: 80px;
-    height: 30px;
-    font-size: 18px;
-    background-color: lightgray;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
-}
-
-.login-button:hover {
-    background-color: darkgrey;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.24);
-  } */
 
   section  {
     font-family:Helvetica;
     color:black;
     background-color: lightgray;
-    left:50%;
+    left:55%;
     margin-left: -48%;
     position: relative;
     top: 315px;
     width: 1200px;
     word-wrap: break-word;
   }
-  
 
 .carousel {
     background-color: rgb(233, 228, 228);
     position:relative;
-    padding: 4rem;
-    margin-top: -50px;
-    margin-left: -10px;
-   
+    left: 100px;
+    width:1200px;
+    z-index: 3;
+}
+.Carousel-Border {
+    background-color: rgb(233, 228, 228);
+    position: absolute;
+    top: 450px;
+    left: 90px;
+    width: 1250px;
+    height: 300px;
+    z-index: 1;
 }
 .carousel h2 {
     position: absolute;
-    background-color: rgb(233, 228, 228);
     color: black;
-    top: -25px;
-    left: 60px;
+    top: -40px;
+    left: 10px;
+    z-index: 2;
 }
 
   .box img {
@@ -103,22 +58,45 @@
 }
 
 .slick-slider {
-    height: 10em;
+    height: 10rem;
     position: relative;
     margin-top: -50px;
     margin-left: -10px;
-    background-color: lightgray;
+    background-color: rgb(233, 228, 228)
+
 }
 
- .border {
+ .Main-Border {
     background-color: lightgray;
-    Width: 1280px;
+    Width: 1200px;
     Height: 500px;
  }
 
  .MainPage {
     background-color: lightgray;
  }
+
+ @media screen and (max-width: 600px) {
+    .carousel {
+        background-color: rgb(233, 228, 228);
+        position: relative;
+        left: 70px;
+        width: 20%;
+    }
+
+    .carousel h2 {
+        font-size: 12px
+    }
+
+    section {
+        width: 500px;
+    }
+   
+}
+
+
+
+
 
 
 
