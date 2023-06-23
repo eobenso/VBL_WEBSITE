@@ -1,0 +1,59 @@
+.BlackBusinessDirectory {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 50px 100px;
+    background-color: lightgray;
+    display:inline-block;
+}
+
+.sub-section-name {
+    text-decoration: underline;
+}
+
+.heading {
+    text-decoration: solid;
+}
+
+.img-1 {
+    max-width: 100%;
+    height: auto;
+    width: 180px;
+    top: 10px;
+    float: left;
+    margin: 40px;
+}
+
+.event-list-1 {
+    margin: 10px -20px;
+    width: 100%;
+}
+
+.img-2 {
+     clear: left;
+}
+
+.event-list-2 {
+    clear: both;
+}
+
+.img-2 {
+    max-width: 50%;
+    height: auto;
+    width: 180px;
+    top: 10px;
+    margin: 10px -20px;
+    float: left;
+}
+
+.event-list-2 {
+    margin: 10px -20px;
+    width: 100%;
+}
+
+.footer {
+    clear: both;
+}
+.footer {
+    width: 80%;
+}
+

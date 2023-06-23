@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './pages/index.js';
 import AboutOurCatalogue from './pages/AboutOurCatalogue.js'
 import HoganAlleyResources from './pages/HoganAlleyResources.js'
+import OtherLocalResources from './pages/OtherLocalResources.js'
 import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js'
 import VBLEvents from './pages/VBLEvents.js'
 import LocalEvents from './pages/LocalEvents.js'
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/about-our-catalogue' element={<AboutOurCatalogue />}></Route>
                 <Route path='/hogan-s-alley-resource' element={<HoganAlleyResources />}></Route>
+                <Route path='/other-local-resource' element={<OtherLocalResources/>}></Route>
                 <Route path='/black-business-directory' element={<BlackBusinessDirectory />}></Route>
                 <Route path='/vbl-events' element={<VBLEvents />}></Route>
                 <Route path='/local-events' element={<LocalEvents />}></Route>
