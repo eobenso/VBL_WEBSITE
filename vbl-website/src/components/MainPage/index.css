@@ -14,7 +14,7 @@
 .carousel {
     background-color: rgb(233, 228, 228);
     position:relative;
-    left: 100px;
+    left: 109px;
     width:1200px;
     z-index: 3;
 }
@@ -22,8 +22,8 @@
     background-color: rgb(233, 228, 228);
     position: absolute;
     top: 450px;
-    left: 90px;
-    width: 1250px;
+    left: 71px;
+    width: 1270px;
     height: 300px;
     z-index: 1;
 }
