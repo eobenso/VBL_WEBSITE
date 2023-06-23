@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
+import Content from '../components/LocalEvents';
 
 const LocalEvents = () => {
     return (
         <div>
             <Navbar />
-            <h1>this is the LocalEvents page</h1>
+            <Content />
         </div>
     );
 }

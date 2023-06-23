@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
+import Content from '../components/VBLEvents';
 
 const VBLEvents = () => {
     return (
         <div>
             <Navbar />
-            <h1>this is the VBLEvents page</h1>
+            <Content />
         </div>
     );
 }
