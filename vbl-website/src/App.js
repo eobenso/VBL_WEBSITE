@@ -7,6 +7,9 @@ import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js'
 import VBLEvents from './pages/VBLEvents.js'
 import LocalEvents from './pages/LocalEvents.js'
 import Merch from './pages/Merch.js'
+import Donate from './pages/Donate.js'
+import VolunteerWithUs from './pages/VolunteerWithUs.js';
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -24,6 +27,9 @@ const App = () => {
                 <Route path='/vbl-events' element={<VBLEvents />}></Route>
                 <Route path='/local-events' element={<LocalEvents />}></Route>
                 <Route path='/merch' element={<Merch />}></Route>
+                <Route path='/donate' element={<Donate />}></Route>
+                <Route path='/volunteer-with-us' element={<VolunteerWithUs />}></Route>
+
             </Routes>
         </Router>
     );

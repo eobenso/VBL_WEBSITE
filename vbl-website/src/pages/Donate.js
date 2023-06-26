@@ -1,9 +1,9 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
-import Content from '../components/Merch';
+import Content from '../components/Donate';
 
-const Merch = () => {
+const Donate = () => {
     return (
         <div>
             <Navbar />
@@ -12,4 +12,4 @@ const Merch = () => {
     );
 }
 
-export default Merch;
+export default Donate;
