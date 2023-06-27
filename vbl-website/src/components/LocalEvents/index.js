@@ -12,23 +12,21 @@ const Content = () => {
             <br></br>
             <h2 className='upper heading-name'>Ongoing Events</h2>
 
-        <div className="event-list-1">
-        <div className="example-image-1">
-            <img className='img-1' src={image} alt='Event A' /> 
+        <div className="event-list-01"> 
+        <div className="example-image-01">
+            <img className='img-01' src={image} alt='Event A' /> 
             <br></br>
         </div>
         <br></br>
-        <h3 className='example1'> Examples Local Event A</h3>
+        <h3 className='example01'> Examples Local Event A</h3>
         <br></br>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Turpis egestas maecenas 
             pharetra convallis posuere morbi. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Semper 
             eget duis at tellus.</p>
             <br></br>
-        <h3 className='RSVP1'> RSVP Here!</h3>
-        <br></br>
+        <h3 className='RSVP01'> RSVP Here!</h3>
         </div>
-        <br></br>
 
         <div className="event-list-2"> 
         <div className="example-image-2">

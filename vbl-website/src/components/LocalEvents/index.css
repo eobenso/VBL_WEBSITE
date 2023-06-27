@@ -12,26 +12,6 @@
 .heading {
     text-decoration: solid;
 }
-
-.img-1 {
-    max-width: 100%;
-    height: auto;
-    width: 180px;
-    top: 10px;
-    float: left;
-    margin: 40px;
-}
-
-.event-list-1 {
-    margin: 10px -20px;
-    width: 100%;
-}
-
-.RSVP1 {
-    margin: 10px 210px;
-    width: 100%;
-}
-
 .img-2 {
     max-width: 100%;
     height: auto;
@@ -47,6 +27,25 @@
 }
 
 .RSVP2 {
+    margin: 10px 210px;
+    width: 100%;
+}
+
+.img-01 {
+    max-width: 100%;
+    height: auto;
+    width: 180px;
+    top: 10px;
+    float: left;
+    margin: 40px;
+}
+
+.event-list-01 {
+    margin: 10px -20px;
+    width: 100%;
+}
+
+.RSVP01 {
     margin: 10px 210px;
     width: 100%;
 }
