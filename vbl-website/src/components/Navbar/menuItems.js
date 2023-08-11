@@ -58,8 +58,8 @@ export const menuItems = [
     title: "COMMUNITY ENGAGEMENT",
     submenu: [
       {
-        title: "Job Oppotunities",
-        link: "/job-oppotunities",
+        title: "Job Opportunities",
+        link: "/job-opportunities",
       },
       {
         title: "Grant Oppotunities",

@@ -1,0 +1,31 @@
+
+.Job-Opportunities {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 50px 100px;
+  background-color: lightgrey;
+  display:flex-block;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.sub-section-name {
+  text-decoration: underline;
+}
+
+.heading {
+  text-decoration: solid;
+}
+
+.job-postings-box {
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
+  width: 180px;
+  top: 10px;
+  float: left;
+  margin: 40px;
+}
