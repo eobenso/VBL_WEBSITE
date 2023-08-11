@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "company": "UBC Department of Computer Science",
+    "logo": "./images/vbl-logo.png",
+    "recent": true,
+    "featured": true,
+    "position": "React Developer",
+    "role": "Volunteer",
+    "level": "Students",
+    "postedOn": "Apply by Aug 10th, 2023",
+    "contract": "Volunteer",
+    "location": "Remote",
+    "skills": ["React", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "company": "Vancouver Black Library",
+    "logo": "./images/vbl-logo.png",
+    "recent": false,
+    "featured": true,
+    "position": "Express of Interest",
+    "role": "Librarian",
+    "level": "Entry-Level",
+    "postedOn": "No Set Deadline",
+    "contract": "Full Time",
+    "location": "Vancouver",
+    "skills": ["Commuication", "Management", "Society"]
+  }
+]
