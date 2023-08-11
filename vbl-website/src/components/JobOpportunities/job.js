@@ -18,8 +18,6 @@ const Job = (props) => {
 
   let keywords = [level, role, ...skills]
 
-  
-
   return (
       <div className='job-container'>
         <div className="part1">
