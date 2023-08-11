@@ -16,7 +16,7 @@ const Job = (props) => {
     location,
     skills} = props.job
 
-  let keywords = [role, level, ...skills]
+  let keywords = [level, role, ...skills]
 
   
 
