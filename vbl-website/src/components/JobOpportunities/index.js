@@ -4,7 +4,7 @@ import Jobs from './jobs'
 import Job from './job'
 import data from './data.json'
 
-let num_postings = 0;
+let num_postings = data.length;
 
 const Content = () => {
 
@@ -15,7 +15,7 @@ const Content = () => {
             <br></br>
             <div className='Postings-Header'>
               <h1 className='upper heading-name'>Current Listings</h1>
-              <div className='num-postings'> {num_postings} RESULTS</div>
+              <div className='num-postings'> {num_postings} Results</div>
             </div>
             <div className="Job-Board">
               <Jobs data={data} />
