@@ -1,0 +1,52 @@
+.Other-Local-Resources {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 50px 100px;
+    background-color: lightgray;
+    display:inline-block;
+    height: 600px;
+    width: 100%;
+
+}
+
+.sub-section-name {
+    text-decoration: underline;
+}
+
+.heading {
+    text-decoration: solid;
+}
+.resource-examples {
+
+}
+.resource-example1 {
+
+    width: 20%;
+    background-color: #bbbbbb;
+    position: absolute;
+}
+.resource-example2 {
+    width: 20%;
+    background-color: #bbbbbb;
+    position: absolute;
+    margin-left: 25%;
+}
+.resource-example3 {
+    width: 20%;
+    background-color: #bbbbbb;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.resource-image {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 12.5%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}

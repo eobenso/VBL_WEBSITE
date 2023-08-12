@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
+import Content from '../components/OtherLocalResources';
 
 const OtherLocalResources = () => {
     return (
         <div>
             <Navbar />
-            <h1>this is the OtherLocalResources page</h1>
+            <Content />
         </div>
     );
 }
