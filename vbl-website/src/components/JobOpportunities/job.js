@@ -1,25 +1,28 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
+import Modal from './modal'
 import './job.css';
 
 const Job = (props) => {
 
-  const {id,
-    company,
-    logo,
-    recent,
-    featured,
-    position,
+  const {position,
     role,
     level,
     postedOn,
     contract,
     location,
-    skills} = props.job
+    skills,
+    description,
+    requirement} = props.job
 
   let keywords = [level, role, ...skills]
+  let [modal, setModal] = useState(false);
+  const handleModal = () => {
+    setModal(!modal);
+  }
 
   return (
-      <div className='job-container'>
+    <div>
+      <div className='job-container' onClick={handleModal}>
         <div className="part1">
           <div className="company">
             {props.job.recent && <span className="new">new!</span>}
@@ -41,6 +44,12 @@ const Job = (props) => {
             })
           }
         </div>
+      </div>
+      <div className='modalElementContainer'>
+      {
+        modal === true ? <Modal handleModal={handleModal} position={position} description={description}/> : null
+      }
+      </div>
       </div>
       )
 }
