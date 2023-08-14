@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './index.css';
 import Jobs from './jobs'
+import Modal from './modal'
 import data from './data.json'
 
 const Content = () => {
