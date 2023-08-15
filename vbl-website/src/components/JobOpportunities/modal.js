@@ -19,7 +19,7 @@ const Modal = ({handleModal, position, description}) => {
         </div>
         <div className="footer">
           <button onClick={handleModal} id="cancelBtn"> Cancel</button>
-          <button> Apply </button>
+          <a href='mailto:hi@vancouverblacklibrary.org'><button> Apply</button></a>
         </div>
       </div>
     </div>
