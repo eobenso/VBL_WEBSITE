@@ -108,8 +108,8 @@ export const menuItems = [
         link: "/local-events",
       },
       {
-        title: "Clubs",
-        link: "/clubs",
+        title: "Book Club",
+        link: "/book-club",
       },
     ],
   },
