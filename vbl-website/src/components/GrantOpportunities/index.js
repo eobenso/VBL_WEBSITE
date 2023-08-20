@@ -30,7 +30,7 @@ const Content = () => {
                             <td>Award Name 1</td>
                             <td>September 10, 2023</td>
                             <td>10,000 CAD</td>
-                            <td>2,000 CAD</td>
+                            <td>5,000 CAD</td>
                             <td>Open</td>
                         </tr>
                         <tr>
