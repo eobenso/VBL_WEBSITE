@@ -4,7 +4,10 @@ import Content from '../components/GrantOpportunities';
 
 const GrantOpportunities = () => {
     return (
-        <div><Navbar /><Content /></div>
+        <div>
+            <Navbar />
+            <Content />
+        </div>
     );
 }
 
