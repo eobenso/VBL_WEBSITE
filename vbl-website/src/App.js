@@ -11,6 +11,7 @@ import Merch from './pages/Merch.js'
 import Donate from './pages/Donate.js'
 import VolunteerWithUs from './pages/VolunteerWithUs.js';
 import BookClub from './pages/BookClub.js';
+import GrantOpportunities from './pages/GrantOpportunities.js';
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -28,6 +29,7 @@ const App = () => {
                 <Route path='/black-business-directory' element={<BlackBusinessDirectory />}></Route>
                 <Route path='job-opportunities' 
                 element={<JobOpportunities />}></Route>
+                <Route path='/grant-opportunities' element={<GrantOpportunities />}></Route>
                 <Route path='/vbl-events' element={<VBLEvents />}></Route>
                 <Route path='/local-events' element={<LocalEvents />}></Route>
                 <Route path='/book-club' element={<BookClub />}></Route>

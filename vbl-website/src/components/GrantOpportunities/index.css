@@ -1,0 +1,41 @@
+
+.grant-opportunities {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 200px 100px;
+  background-color: lightgrey;
+  display: flex;
+  width: 100vw;
+  position: relative;
+}
+
+.grant-content {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.grant-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grant-table th,
+.grant-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.grant-table th {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.grant-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.space-between-elements {
+    margin-bottom: 20px;
+}
