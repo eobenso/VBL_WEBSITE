@@ -1,0 +1,71 @@
+
+.grant-details {
+  padding: 70px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.grant-details h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.grant-details p {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.grant-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0px;
+}
+
+.grant-table th,
+.grant-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+.grant-table th {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.grant-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grant-details h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.grant-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.grant-details button:hover {
+  background-color: #0056b3;
+}
+
+.grant-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.grant-details a:hover {
+  text-decoration: underline;
+}

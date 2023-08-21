@@ -62,8 +62,8 @@ export const menuItems = [
         link: "/job-opportunities",
       },
       {
-        title: "Grant Oppotunities",
-        link: "/grant-pppotunities",
+        title: "Grant Opportunities",
+        link: "/grant-opportunities",
       },
       {
         title: "Local Resources",
