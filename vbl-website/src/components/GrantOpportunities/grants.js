@@ -21,7 +21,7 @@ const Grant = () => {
   return (
     <div className="grant-details">
       <h1>{selectedGrant.title}</h1>
-      <div><strong>Posting Date:</strong> {selectedGrant.deadline}</div>
+      <div><strong>Posting Date:</strong> {selectedGrant.postingDate}</div>
       <table className="grant-table">
         <thead>
           <tr>
