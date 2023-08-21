@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Content from '../components/GrantOpportunities';
+import GrantOpportunitiesComponent from '../components/GrantOpportunities'; // Rename the imported component
 
 const GrantOpportunities = () => {
-    return (
-        <div>
-            <Navbar />
-            <Content />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Navbar />
+      <GrantOpportunitiesComponent />
+    </div>
+  );
+};
 
 export default GrantOpportunities;
