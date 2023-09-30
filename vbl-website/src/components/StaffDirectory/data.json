@@ -1,0 +1,62 @@
+[
+  {
+    "name": "John Doe",
+    "title": "Manager",
+    "description": "John has over 10 years of experience in the field and is known for his strategic planning skills.",
+    "imagePath": "./images/john-doe.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "title": "Assistant Manager",
+    "description": "Jane has a knack for understanding client needs and always delivers projects on time.",
+    "imagePath": "./images/jane-smith.jpg"
+  },
+  {
+    "name": "Robert Brown",
+    "title": "Director",
+    "description": "Robert is a visionary leader with a deep understanding of the industry's ins and outs.",
+    "imagePath": "./images/robert-brown.jpg"
+  },
+  {
+    "name": "Emily White",
+    "title": "Senior Analyst",
+    "description": "Emily excels in data interpretation and has led multiple successful projects in her tenure.",
+    "imagePath": "./images/emily-white.jpg"
+  },
+  {
+    "name": "James Green",
+    "title": "Coordinator",
+    "description": "James is highly organized and has been a valuable asset to the team, ensuring smooth operations.",
+    "imagePath": "./images/james-green.jpg"
+  },
+  {
+    "name": "Sarah Blue",
+    "title": "Executive Officer",
+    "description": "Sarah possesses strong leadership qualities and has been instrumental in the company's growth.",
+    "imagePath": "./images/sarah-blue.jpg"
+  },
+  {
+    "name": "David Gray",
+    "title": "Administrator",
+    "description": "David's attention to detail and efficiency has always kept the back-end processes streamlined.",
+    "imagePath": "./images/david-gray.jpg"
+  },
+  {
+    "name": "Anna Black",
+    "title": "Marketing Head",
+    "description": "Anna's creative strategies have always ensured the brand stays ahead in the market.",
+    "imagePath": "./images/anna-black.jpg"
+  },
+  {
+    "name": "William Yellow",
+    "title": "Sales Head",
+    "description": "William has a stellar record in achieving targets and has a great rapport with the clients.",
+    "imagePath": "./images/william-yellow.jpg"
+  },
+  {
+    "name": "Ella Red",
+    "title": "Human Resources",
+    "description": "Ella's empathetic approach towards employees has made the workplace more harmonious.",
+    "imagePath": "./images/ella-red.jpg"
+  }
+]
