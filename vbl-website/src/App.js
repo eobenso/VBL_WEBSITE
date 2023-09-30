@@ -16,6 +16,7 @@ import BookClub from './pages/BookClub.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css'
+import StaffDirectory from './pages/StaffDirectory.js';
 
 const App = () => {
     return (
@@ -34,7 +35,7 @@ const App = () => {
                 <Route path='/merch' element={<Merch />}></Route>
                 <Route path='/donate' element={<Donate />}></Route>
                 <Route path='/volunteer-with-us' element={<VolunteerWithUs />}></Route>
-
+                <Route path='/staff-directory' element={<StaffDirectory />}></Route>
             </Routes>
         </Router>
     );
