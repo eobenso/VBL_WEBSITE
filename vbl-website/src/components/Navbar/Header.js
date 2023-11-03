@@ -2,6 +2,9 @@ import React from 'react';
 import {FaInstagram, FaDiscord} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsLink} from 'react-icons/bs'
+import {
+    Link,
+} from "react-router-dom";
 
 import './Header.css';
 import logo from './vbl-logo.png';
@@ -18,7 +21,7 @@ function Header() {
                 <FaDiscord className='ref-icon' />
                 <a href='mailto:vanblacklibrary@gmail.com'><AiOutlineMail className='ref-icon' /></a>
                 <a href='https://www.gofundme.com/f/vancouver-black-library'><BsLink className='ref-icon' /></a>
-                <button className='login-button'><h5>LOG IN</h5></button> 
+                <Link to="/login-page"><button className='login-button'><h5>LOG IN</h5></button></Link>
             </div>
         </div>     
     )
