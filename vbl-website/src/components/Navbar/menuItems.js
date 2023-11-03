@@ -51,7 +51,7 @@ export const menuItems = [
       {
         title: "Guidelines for Borrowing at VBL",
         link: "/guidelines-for-borrowing-at-vbl",
-      }
+      },
     ],
   },
   {
