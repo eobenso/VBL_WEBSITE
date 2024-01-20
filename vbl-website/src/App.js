@@ -4,7 +4,6 @@ import AboutOurCatalogue from './pages/AboutOurCatalogue.js'
 import HoganAlleyResources from './pages/HoganAlleyResources.js'
 import OtherLocalResources from './pages/OtherLocalResources.js'
 import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js'
-import CollaborateWithUs from './pages/CollaborateWithUs.js'
 import VBLEvents from './pages/VBLEvents.js'
 import LocalEvents from './pages/LocalEvents.js'
 import Merch from './pages/Merch.js'
@@ -25,7 +24,6 @@ const App = () => {
                 <Route path='/hogan-s-alley-resource' element={<HoganAlleyResources />}></Route>
                 <Route path='/other-local-resource' element={<OtherLocalResources/>}></Route>
                 <Route path='/black-business-directory' element={<BlackBusinessDirectory />}></Route>
-                <Route path='/collaborate-with-us' element={<CollaborateWithUs />}></Route>
                 <Route path='/vbl-events' element={<VBLEvents />}></Route>
                 <Route path='/local-events' element={<LocalEvents />}></Route>
                 <Route path='/merch' element={<Merch />}></Route>
