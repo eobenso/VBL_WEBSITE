@@ -1,9 +1,9 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
-import Content from '../components/OtherLocalResources';
+import Content from '../components/LoginPage';
 
-const OtherLocalResources = () => {
+const LoginPage = () => {
     return (
         <div>
             <Navbar />
@@ -12,4 +12,4 @@ const OtherLocalResources = () => {
     );
 }
 
-export default OtherLocalResources;
+export default LoginPage;

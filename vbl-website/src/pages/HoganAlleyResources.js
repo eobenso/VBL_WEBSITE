@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
+import Content from '../components/HoganAlleyResources';
 
 const HoganAlleyResources = () => {
     return (
         <div>
             <Navbar />
-            <h1>this is the HoganAlleyResources page</h1>
+            <Content />
         </div>
     );
 }

@@ -1,0 +1,45 @@
+@import './jobs.css'; 
+@import './job.css';
+
+.Job-Opportunities {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 200px 100px;
+  background-color: lightgrey;
+  display:flex-block;
+  width: 100vw;
+  position: relative;
+}
+
+.sub-section-name {
+  text-decoration: underline;
+}
+
+.heading {
+  text-decoration: solid;
+}
+
+.Postings-Header {
+  display:flex;
+  justify-content:space-between;
+  padding-left: 5px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.num-postings {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.Job-Board {
+  border-radius: 15px;
+  background-color: rgb(232, 230, 230);
+  display:flex-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: relative;
+}
