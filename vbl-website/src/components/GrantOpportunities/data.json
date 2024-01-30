@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Award Name 1",
+    "postedOn": "August 16, 2023",
+    "deadline": "September 10, 2023",
+    "amount": "1,000 CAD",
+    "description": "description 1"
+  },
+  {
+    "id": 2,
+    "title": "Award Name 2",
+    "postedOn": "August 1, 2023",
+    "deadline": "August 15, 2023",
+    "amount": "2,000 CAD",
+    "description": "description 2"
+  }
+]

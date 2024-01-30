@@ -12,6 +12,7 @@ import Donate from './pages/Donate.js'
 import VolunteerWithUs from './pages/VolunteerWithUs.js';
 import BookClub from './pages/BookClub.js';
 import LoginPage from './pages/LoginPage.js'
+import GrantOpportunities from './pages/GrantOpportunities.js'
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -27,7 +28,7 @@ const App = () => {
                 <Route path='/hogan-s-alley-resource' element={<HoganAlleyResources />}></Route>
                 <Route path='/others-local-resources' element={<OtherLocalResources/>}></Route>
                 <Route path='/black-business-directory' element={<BlackBusinessDirectory />}></Route>
-                <Route path='job-opportunities' element={<JobOpportunities />}></Route>
+                <Route path='/job-opportunities' element={<JobOpportunities />}></Route>
                 <Route path='/vbl-events' element={<VBLEvents />}></Route>
                 <Route path='/local-events' element={<LocalEvents />}></Route>
                 <Route path='/book-club' element={<BookClub />}></Route>
@@ -35,7 +36,7 @@ const App = () => {
                 <Route path='/donate' element={<Donate />}></Route>
                 <Route path='/volunteer-with-us' element={<VolunteerWithUs />}></Route>
                 <Route path='/login-page' element={<LoginPage />}></Route>
-
+                <Route path='/grant-opportunities' element={<GrantOpportunities />}></Route>
             </Routes>
         </Router>
     );
