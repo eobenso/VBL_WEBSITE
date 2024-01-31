@@ -25,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install @mui/material @emotion/react @emotion/styled && npm install @mui/material @mui/styled-engine-sc styled-components && npm install @mui/icons-material"
   },
   "eslintConfig": {
     "extends": [
