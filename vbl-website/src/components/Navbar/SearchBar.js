@@ -1,21 +1,21 @@
-import React from 'react'
-import './SearchBar.css';
+import React from 'react';
+import Button from '@mui/material/Button';
+import Fab from '@mui/material/Fab';
+import NavigationIcon from '@mui/icons-material/Navigation';
+import './SearchBar.css'; 
 
 function SearchBar() {
+  const openLibraryCat = () => {
+    const libraryCatURL = 'https://www.librarycat.org/lib/VanBlackLibrary';
+    window.open(libraryCatURL, '_blank');
+  };
+
   return (
-    <div className='search-bar'>
-        <select className='search-select'>
-            <option value="all">All</option>
-            <option value="books">Books</option>
-            <option value="events">Events</option>
-            <option value="website">Website</option>
-        </select>
-        <div className='search-input'>
-            <input className='search-input-box' type='text' placeholder='Search for...'/>
-            
-        </div>
-    </div>
-  )
+    <Fab variant="extended" onClick={openLibraryCat} sx={{width: 800, margin: 5,}}>
+      <NavigationIcon sx={{ mr: 1 }} />
+      Discover Book Reads Here
+    </Fab>
+  );
 }
 
-export default SearchBar
+export default SearchBar;

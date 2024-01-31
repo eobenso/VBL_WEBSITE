@@ -1,19 +1,18 @@
 import React from 'react';
 import Home from './pages/index.js';
-import AboutOurCatalogue from './pages/AboutOurCatalogue.js'
-import HoganAlleyResources from './pages/HoganAlleyResources.js'
-import OtherLocalResources from './pages/OtherLocalResources.js'
-import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js'
+import AboutOurCatalogue from './pages/AboutOurCatalogue.js';
+import HoganAlleyResources from './pages/HoganAlleyResources.js';
+import OtherLocalResources from './pages/OtherLocalResources.js';
+import BlackBusinessDirectory from './pages/BlackBusinessDirectory.js';
 import JobOpportunities from './pages/JobOpportunities.js';
-import VBLEvents from './pages/VBLEvents.js'
-import LocalEvents from './pages/LocalEvents.js'
-import Merch from './pages/Merch.js'
-import Donate from './pages/Donate.js'
+import VBLEvents from './pages/VBLEvents.js';
+import LocalEvents from './pages/LocalEvents.js';
+import Merch from './pages/Merch.js';
+import Donate from './pages/Donate.js';
 import VolunteerWithUs from './pages/VolunteerWithUs.js';
 import BookClub from './pages/BookClub.js';
-import LoginPage from './pages/LoginPage.js'
-import GrantOpportunities from './pages/GrantOpportunities.js'
-
+import LoginPage from './pages/LoginPage.js';
+import GrantOpportunities from './pages/GrantOpportunities.js';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
